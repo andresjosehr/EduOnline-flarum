@@ -2131,6 +2131,58 @@
         "notification-url": "https://packagist.org/downloads/"
     },
     {
+        "name": "fzaninotto/faker",
+        "version": "v1.8.0",
+        "version_normalized": "1.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fzaninotto/Faker.git",
+            "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/f72816b43e74063c8b10357394b6bba8cb1c10de",
+            "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.3.3 || ^7.0"
+        },
+        "require-dev": {
+            "ext-intl": "*",
+            "phpunit/phpunit": "^4.8.35 || ^5.7",
+            "squizlabs/php_codesniffer": "^1.5"
+        },
+        "time": "2018-07-12T10:23:15+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Faker\\": "src/Faker/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "François Zaninotto"
+            }
+        ],
+        "description": "Faker is a PHP library that generates fake data for you.",
+        "keywords": [
+            "data",
+            "faker",
+            "fixtures"
+        ]
+    },
+    {
         "name": "guzzlehttp/guzzle",
         "version": "6.3.3",
         "version_normalized": "6.3.3.0",
@@ -4010,6 +4062,65 @@
             "psr-15",
             "psr-17",
             "psr-7"
+        ]
+    },
+    {
+        "name": "migratetoflarum/fake-data",
+        "version": "0.1.1",
+        "version_normalized": "0.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/migratetoflarum/fake-data.git",
+            "reference": "ab88edb0264fba7ff18a97d8231ee27053470525"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/migratetoflarum/fake-data/zipball/ab88edb0264fba7ff18a97d8231ee27053470525",
+            "reference": "ab88edb0264fba7ff18a97d8231ee27053470525",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.9",
+            "fzaninotto/faker": "^1.8"
+        },
+        "time": "2019-08-28T15:20:45+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Fake Data",
+                "icon": {
+                    "name": "fas fa-database",
+                    "backgroundColor": "#e7672e",
+                    "color": "#fafafa"
+                }
+            },
+            "flagrow": {
+                "discuss": "https://discuss.flarum.org/d/21160"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "MigrateToFlarum\\FakeData\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Clark Winkelmann",
+                "email": "clark.winkelmann@gmail.com",
+                "homepage": "https://clarkwinkelmann.com/"
+            }
+        ],
+        "description": "Generate fake data for testing.",
+        "keywords": [
+            "data",
+            "extension",
+            "fake",
+            "flarum"
         ]
     },
     {

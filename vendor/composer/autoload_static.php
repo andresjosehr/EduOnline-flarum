@@ -100,6 +100,7 @@ class ComposerStaticInitd5d1126786e0d5fc898680dacde5a93c
         'M' => 
         array (
             'Monolog\\' => 8,
+            'MigrateToFlarum\\FakeData\\' => 25,
             'Middlewares\\Utils\\' => 18,
             'Middlewares\\' => 12,
             'MatthiasMullie\\PathConverter\\' => 29,
@@ -160,6 +161,7 @@ class ComposerStaticInitd5d1126786e0d5fc898680dacde5a93c
             'Flagrow\\Flarum\\Api\\' => 19,
             'Fig\\Http\\Message\\' => 17,
             'FastRoute\\' => 10,
+            'Faker\\' => 6,
         ),
         'E' => 
         array (
@@ -327,6 +329,10 @@ class ComposerStaticInitd5d1126786e0d5fc898680dacde5a93c
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'MigrateToFlarum\\FakeData\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/migratetoflarum/fake-data/src',
         ),
         'Middlewares\\Utils\\' => 
         array (
@@ -523,6 +529,10 @@ class ComposerStaticInitd5d1126786e0d5fc898680dacde5a93c
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Faker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
